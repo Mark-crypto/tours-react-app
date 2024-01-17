@@ -1,9 +1,9 @@
 # Tours React App.
 ## A React Project on useEffect Hook
-- useEffect hook is used to perform an action after render i.e The function is called after performing DOM updates. Instances you might require the hook are like for data fetching, subscriptions, manually changing the DOM etc.
+- useEffect hook is used to perform an action after render i.e The function is called after performing DOM updates. Instances that might require the hook are like for data fetching, subscriptions, manually changing the DOM etc.
 - For adjusting state you might not need a useEffect. It can be handy mostly when accessing external systems.
-- Your function runs after every render by default and to control this behavior you are required to add an array of dependecies as the second arguement.
-- The hook offers two variations one with cleanup and another without cleanup. Clean up is simply a function we return to stop a process after unmounting such as unsubscribing to a subscription.
+- Your function runs after every render by default and to control this behavior you are required to add an array of dependencies as the second argument.
+- The hook offers two variations one with cleanup and another without cleanup. Clean up is simply a function you return to stop a process after unmounting such as unsubscribing to a subscription.
 - If you are interested in in-depth explanation of the hook's functioning please visit https://react.dev/learn/synchronizing-with-effects
 
 ## Installation
